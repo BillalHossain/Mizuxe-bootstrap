@@ -1,0 +1,109 @@
+*{
+    box-sizing:border-box
+}
+body{
+
+}
+/* common thing */
+
+textarea{
+    resize: none;
+}
+
+/* header */
+
+.navbar{
+    background: white;
+ border-bottom:1px solid green;
+ opacity: 0.9;
+}
+
+.nav-item{
+    padding-right:10px;
+}
+.nav-link{
+    font-size:1.4rem;
+    text-transform:uppercase;
+  color:black;
+}
+.nav-link:hover{
+   color:#6AAFB6;
+  
+}
+
+
+/* banner */
+
+.banner{
+    background: url("picture/mountains.jpg") no-repeat;
+    min-height:600px;
+   
+    
+}
+.color-overlay{
+    background: rgba(50,146,156,0.7);
+  min-height:600px;
+  padding:30px;
+   
+}
+
+
+
+
+
+
+
+/* normal card */
+
+.bg{
+    background:#3292A6 ;
+    color:white;
+}
+
+/* accordion */
+
+.book{
+   background: rgb(245, 243, 243);
+}
+
+
+/* card */
+.card img{
+margin-top:-50px
+}
+.card:hover{
+    background:#3292A6 ;
+    transition:1s ease;
+    color:white;
+}
+.card i{
+    margin-right:25px;
+    font-size:20px;
+    
+}
+
+.card i:last-child{
+    margin:0;
+}
+
+
+/* foooter*/
+
+footer{
+    background: #3292A6;
+}
+
+
+
+/*media*/
+
+
+@media screen and (min-width:576px){
+    
+}
+@media screen and (min-width:768px){
+
+}
+@media screen and (min-width:992px){
+
+}
